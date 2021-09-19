@@ -1,0 +1,83 @@
+body {
+    background-color: #E5E5E5;
+}
+.rectangle {
+    width: 954px;
+    height: 594px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.rect-one {
+width: 609px;
+height: 594px;
+background-color:#BE0909;
+}
+.rect-two {
+    width: 345px;
+    height: 594 px;
+    background-color: sandybrown;
+}
+.duck-pic {
+    width: 420px;
+    height: 450px;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+}
+.form {
+    margin-top: 20px;
+    margin-left: 65px;
+    color: white;
+}
+.btn {
+    margin-top: 56px;
+    margin-left: 164px;
+    width: 202px;
+    height: 48px;
+    background-color: teal;
+    color:whitesmoke;
+    border-radius: 20px;
+    font-weight: 700px;
+    font-size: 18px;
+    border: none;
+}
+.btn:hover {
+    width: 250px;
+    height: 70px;
+}
+#name {
+    width: 160px;
+    height: 72px;
+    margin-bottom: 20px;
+    background-color:#BE0909;
+    border: none; 
+    border-bottom: 2px solid #9DBEBB;
+}
+#email {
+    width: 160px;
+    height: 72px;
+    margin-bottom: 20px;
+    background-color:#BE0909;
+    border: none;
+    border-bottom: 2px solid #9DBEBB;
+}
+#message-reg {
+    width: 213px;
+    height: 72px;
+    margin-bottom: 20px;
+    background-color:#BE0909;
+    border: none;
+    border-bottom: 2px solid #9DBEBB;
+}
+#message {
+    width: 400px;
+    height: 72px;
+    background-color:#BE0909;
+    border: none;
+    border-bottom: 2px solid #9DBEBB;
+}
+::placeholder {
+    color: whitesmoke;
+}
